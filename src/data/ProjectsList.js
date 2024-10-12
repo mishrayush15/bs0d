@@ -1,38 +1,28 @@
 export const projectsList = [
     {
-        title: "project 1",
+        title: "Mit-Connect",
         link: "xyz.com",
-        image: "./xyz"
+        image: "images/projects/mitconnect.png"
     },
     {
-        title: "project 2",
+        title: "NoteIt",
         link: "xyz.com",
-        image: "./xyz"
+        image: "images/projects/noteit.png"
     },
     {
-        title: "project 3",
+        title: "SkySync",
         link: "xyz.com",
-        image: "./xyz"
+        image: "images/projects/weather.png"
     },
     {
-        title: "project 4",
+        title: "Beep Boop",
         link: "xyz.com",
-        image: "./xyz"
+        image: "images/projects/beepboop.png"
     },
     {
-        title: "project 5",
+        title: "VirtualR",
         link: "xyz.com",
-        image: "./xyz"
-    },
-    {
-        title: "project 6",
-        link: "xyz.com",
-        image: "./xyz"
-    },
-    {
-        title: "project 7",
-        link: "xyz.com",
-        image: "./xyz"
+        image: "images/projects/virtualr.png"
     },
 ]
 
