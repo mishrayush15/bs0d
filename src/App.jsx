@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import LandingPage from "./components/LandingPage"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -16,6 +17,9 @@ const App = () => {
       </div>
       <div>
         <Skills/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   )
