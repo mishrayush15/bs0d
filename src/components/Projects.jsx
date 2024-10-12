@@ -10,7 +10,7 @@ const Projects = () => {
                     return (
                         <div
                             key={index}
-                            className="bg-white p-6 sm:w-[300px] sm:h-[300px] w-[250px] h-[250px] hover:shadow-xl transition-transform duration-300 transform hover:scale-105 flex flex-col items-center"
+                            className="bg-white p-6 sm:w-[300px] sm:h-[300px] w-[250px] h-[250px] hover:shadow-xl transition-transform duration-300 transform hover:scale-105 flex flex-col items-center cursor-pointer"
                         >
                             <img
                                 src={project.image}
