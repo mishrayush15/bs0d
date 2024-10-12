@@ -8,7 +8,7 @@ const LandingPage = () => {
     };
 
     return (
-        <div className='flex sm:h-screen sm:w-full justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6 bg-pattern'> {/* Apply the bg-pattern class here */}
+        <div className='flex sm:h-screen sm:w-full justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6 bg-pattern'> 
             <div className="landing page sm:space-y-10 space-y-3">
                 <div>
                     <h1 className="sm:text-7xl sm:font-bold font-bold text-2xl">It&apos;s Ayush Mishra,</h1>
