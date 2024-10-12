@@ -31,7 +31,7 @@ const LandingPage = () => {
                     <div className='flex space-x-4 ml-auto'>
                         <a href="https://github.com/mishrayush15" target='blank'><img src="images/icons/githublight.svg" alt="github" className='w-8 h-8 cursor-pointer' /></a>
                         <a href="https://www.linkedin.com/in/mishrayushh/" target='blank'><img src="images/icons/linkedinlight.svg" alt="linkedin" className='w-8 h-8 cursor-pointer' /></a>
-                        <a href="mailto:ayushmishra780193@gmail.com" target='blank'><img src="images/icons/maillight.svg" alt="mail" className='w-8 h-8 cursor-pointer' /></a>
+                        <a href="mailto:ayushmishra780193@gmail.com" target='blank'><img src="images/icons/mailLight.svg" alt="mail" className='w-8 h-8 cursor-pointer' /></a>
                     </div>
                 </div>
 
