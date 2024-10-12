@@ -2,6 +2,9 @@
 *{
   font-family: "Fira Code", serif;
 }
+body{
+  background-color: #111111;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

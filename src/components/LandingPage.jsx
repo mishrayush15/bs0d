@@ -2,14 +2,14 @@ import { } from 'react'
 
 const LandingPage = () => {
     return (
-        <div className='flex items-center justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6'>
-            <div className="landing page sm:space-y-8 space-y-3">
+        <div className='flex items-center` sm:h-screen sm:w-full justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6'>
+            <div className="landing page sm:space-y-10 space-y-3">
                 <div>
                     <h1 className="sm:text-7xl sm:font-bold font-bold text-2xl">It&apos;s Ayush Mishra,</h1>
                 </div>
                 <div>
                     <p className='sm:text-2xl'>
-                        I create stunning, impactful websites that solve real-world problems. As an indie hacker, I enjoy tackling complex codebases and diving deep into the tech sea (ps: deep diver). I have a passion about helping others with my software and through my open-source contributions (check out my <a className="text-blue-300" href="https://github.com/mishrayush15" target="blank">GitHub</a>!). Have a project in mind? You&apos;ve come to the right guy! Feel free to contact me via social media or by filling out the <a className="text-blue-300">form</a>.
+                        I create stunning, impactful websites that solve real-world problems. As an indie hacker, I enjoy tackling complex codebases and diving deep into the tech sea (ps: deep diver). I have a passion about helping others with my software and through my open-source contributions (check out my <a className="text-blue-300" href="https://github.com/mishrayush15" target="blank">GitHub</a>!). Have a project in mind? You&apos;ve come to the right guy! Feel free to contact me via social media or by filling out the <a href='https://forms.gle/N6h5fkNSAg3QP35r5' target='blank' className="text-blue-300">form</a>.
                     </p>
                 </div>
                 
@@ -20,13 +20,13 @@ const LandingPage = () => {
 
 
                     
-                    <img src="" alt="down-arrow" className='hidden md:block' />
+                    <img src="images/icons/arrowdownlight.svg" alt="down-arrow" className='hidden md:block w-10 h-10' />
 
                     
                     <div className='flex space-x-4 ml-auto'>
-                        <img src="" alt="github" />
-                        <img src="" alt="linkedin" />
-                        <img src="" alt="mail" />
+                        <a href="https://github.com/mishrayush15" target='blank'><img src="images/icons/githublight.svg" alt="github" className='w-8 h-8 cursor-pointer'/></a>
+                        <a href="https://www.linkedin.com/in/mishrayushh/" target='blank'><img src="images/icons/linkedinlight.svg" alt="linkedin" className='w-8 h-8 cursor-pointer'/></a>
+                        <a href="mailto:ayushmishra780193@gmail.com" target='blank'><img src="images/icons/maillight.svg" alt="mail" className='w-8 h-8 cursor-pointer'/></a>
                     </div>
                 </div>
 
