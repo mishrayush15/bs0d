@@ -1,4 +1,3 @@
-import { } from 'react';
 import { projectsList } from '../data/ProjectsList';
 
 const Projects = () => {

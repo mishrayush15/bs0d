@@ -1,5 +1,3 @@
-import { } from 'react'
-
 const LandingPage = () => {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
