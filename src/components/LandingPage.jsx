@@ -1,3 +1,4 @@
+import './Grid.css'
 const LandingPage = () => {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -5,8 +6,9 @@ const LandingPage = () => {
             section.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
     return (
-        <div className='flex sm:h-screen sm:w-full justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6'>
+        <div className='flex sm:h-screen sm:w-full justify-center sm:pt-32 pt-10 sm:mx-[140px] mx-6 bg-pattern'> {/* Apply the bg-pattern class here */}
             <div className="landing page sm:space-y-10 space-y-3">
                 <div>
                     <h1 className="sm:text-7xl sm:font-bold font-bold text-2xl">It&apos;s Ayush Mishra,</h1>
@@ -23,10 +25,7 @@ const LandingPage = () => {
                         Terminal
                     </h3>
 
-
-
                     <img onClick={() => scrollToSection('projects')} src="images/icons/arrowdownlight.svg" alt="down-arrow" className='hidden md:block w-10 h-10 animate-bounce cursor-pointer ' />
-
 
                     <div className='flex space-x-4 ml-auto'>
                         <a href="https://github.com/mishrayush15" target='blank'><img src="images/icons/githublight.svg" alt="github" className='w-8 h-8 cursor-pointer' /></a>
@@ -34,11 +33,9 @@ const LandingPage = () => {
                         <a href="mailto:ayushmishra780193@gmail.com" target='blank'><img src="images/icons/mailLight.svg" alt="mail" className='w-8 h-8 cursor-pointer' /></a>
                     </div>
                 </div>
-
             </div>
         </div>
-
     )
 }
 
-export default LandingPage
+export default LandingPage;
