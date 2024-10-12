@@ -47,7 +47,7 @@ const Navbar = () => {
 
             
             {isMenuOpen && (
-                <div className='fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50 z-50'>
+                <div className='fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-70 z-50'>
                 <div className='p-8 flex flex-col items-center space-y-8 -translate-y-12'> 
                     <div className='projects text-center'> 
                         <h1 className='text-white text-xl font-semibold cursor-pointer'>Projects</h1>

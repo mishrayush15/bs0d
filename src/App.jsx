@@ -1,8 +1,14 @@
+import LandingPage from "./components/LandingPage"
 import Navbar from "./components/Navbar"
 const App = () => {
   return (
-    <div className="bg-gray-900 w-full h-screen">
-      <Navbar/>
+    <div className="bg-gray-900 text-white w-full h-screen relative">
+      <div className="fixed top-0 left-0 right-0 z-50">
+        <Navbar />
+      </div>
+      <div className="main-area flex pt-20 ">
+        <LandingPage/>
+      </div>
     </div>
   )
 }
