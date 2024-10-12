@@ -11,11 +11,11 @@ const Skills = () => {
                             key={index}
                             className="flex flex-col items-center transition duration-300 ease-in-out transform sm:grayscale hover:grayscale-0"
                         >
-                            <img
+                            <a target='blank' href={skill.link}><img
                                 src={skill.image}
                                 alt={`${skill.title} icon`}
                                 className="object-contain sm:w-32 sm:h-32 w-16 h-16"
-                            />
+                            /></a>
                             <h3 className="text-xl text-white font-semibold mt-2">{skill.title}</h3>
                         </div>
                     )
