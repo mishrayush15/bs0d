@@ -7,7 +7,7 @@ const Footer = () => {
             <p className='text-black text-sm sm:text-base mr-2'>
                 v1.1
             </p>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mishrayush15/bs0d" target="_blank" rel="noopener noreferrer">
                 <img src="images/icons/githubdark.svg" className='w-6 h-6 sm:w-7 sm:h-7 cursor-pointer' alt="GitHub Icon" />
             </a>
         </footer>
