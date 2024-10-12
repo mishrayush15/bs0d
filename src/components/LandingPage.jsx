@@ -21,7 +21,7 @@ const LandingPage = () => {
 
 
                     
-                    <img src="images/icons/arrowdownlight.svg" alt="down-arrow" className='hidden md:block w-10 h-10' />
+                    <img src="images/icons/arrowdownlight.svg" alt="down-arrow" className='hidden md:block w-10 h-10 animate-bounce' />
 
                     
                     <div className='flex space-x-4 ml-auto'>
