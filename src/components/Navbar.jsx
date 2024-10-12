@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <div className='flex bg-[#111111] justify-between items-center sm:px-[140px] p-2 py-4 relative '>
             <div className='main-logo '>
-                <h1 onClick={() => scrollToSection('top')} className='text-white text-4xl font-medium cursor-pointer'>bs0d</h1>
+                <h1 onClick={() => scrollToSection('top')} className='text-white text-4xl font-medium cursor-pointer'>bs<span className='text-blue-500'>0</span>d</h1>
             </div>
             <div className='hidden md:flex items-center space-x-8'>
                 <div className='projects' onClick={() => scrollToSection('projects')}>
