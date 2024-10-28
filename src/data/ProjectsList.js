@@ -1,31 +1,31 @@
 export const projectsList = [
     {
         title: "Mit-Connect",
-        link: "xyz.com",
+        link: "https://github.com/mishrayush15/MIT-Connect",
         image: "images/projects/mitconnect.png",
         working: true
     },
     {
         title: "NoteIt",
-        link: "xyz.com",
+        link: "https://github.com/mishrayush15/NoteIt",
         image: "images/projects/noteit.png",
         working: false
     },
     {
         title: "SkySync",
-        link: "xyz.com",
+        link: "https://github.com/mishrayush15/SkySync",
         image: "images/projects/weather.png",
         working: false
     },
     {
         title: "Beep Boop",
-        link: "xyz.com",
+        link: "https://github.com/mishrayush15/Beep-Boop.",
         image: "images/projects/beepboop.png",
         working: false
     },
     {
         title: "VirtualR",
-        link: "xyz.com",
+        link: "https://github.com/mishrayush15/Virtual-R",
         image: "images/projects/virtualr.png",
         working: false
     },

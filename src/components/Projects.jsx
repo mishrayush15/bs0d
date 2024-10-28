@@ -18,6 +18,7 @@ const Projects = () => {
                                     <span className="text-xs text-green-500">currently working</span>
                                 </div>
                             )}
+                            <a href={project.link} target='_blank'>
                             <div className="bg-white p-6 sm:w-[300px] sm:h-[300px] w-[250px] h-[250px] hover:shadow-xl transition-transform duration-300 transform hover:scale-105 flex flex-col items-center cursor-pointer">
                                 <img
                                     src={project.image}
@@ -26,6 +27,8 @@ const Projects = () => {
                                 />
                                 <h3 className="text-xl text-black font-semibold mb-4 text-center">{project.title}</h3>
                             </div>
+                            </a>
+                            
                         </div>
                     )
                 })}

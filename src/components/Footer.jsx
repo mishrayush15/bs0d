@@ -5,7 +5,7 @@ const Footer = () => {
                 Made by and for Ayush Mishra
             </p>
             <p className='text-black text-sm sm:text-base mr-2'>
-                v1.1
+                v1.2
             </p>
             <a href="https://github.com/mishrayush15/bs0d" target="blank" rel="noopener noreferrer">
                 <img src="images/icons/githubdark.svg" className='w-6 h-6 sm:w-7 sm:h-7 cursor-pointer' alt="GitHub Icon" />
